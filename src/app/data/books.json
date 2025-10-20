@@ -1,0 +1,206 @@
+{
+  "favourites": [
+    {
+      "id": 1,
+      "title": "Fourth Wing",
+      "author": "Rebecca Yarros",
+      "category": "Fantasy",
+      "description": "A thrilling fantasy romance set in a brutal war college where dragon riders are forged in fire.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81R4EliW8FL.jpg",
+      "rating": 4.8,
+      "price": 14.99
+    },
+    {
+      "id": 2,
+      "title": "The Housemaid",
+      "author": "Freida McFadden",
+      "category": "Thriller",
+      "description": "A shocking psychological thriller about lies, deceit, and a house that holds deadly secrets.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/71jZxRhf7vL.jpg",
+      "rating": 4.6,
+      "price": 11.49
+    },
+    {
+      "id": 3,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "category": "Self Help",
+      "description": "A practical guide to building good habits, breaking bad ones, and mastering the tiny behaviors that lead to remarkable results.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg",
+      "rating": 4.9,
+      "price": 16.99
+    },
+    {
+      "id": 4,
+      "title": "It Ends With Us",
+      "author": "Colleen Hoover",
+      "category": "Romance",
+      "description": "A heart-wrenching tale of love, pain, and the courage to walk away from what hurts most.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/71KilybDOoL.jpg",
+      "rating": 4.7,
+      "price": 13.99
+    },
+    {
+      "id": 5,
+      "title": "The Night Circus",
+      "author": "Erin Morgenstern",
+      "category": "Fantasy",
+      "description": "A magical competition between two young illusionists becomes a breathtaking love story.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81pM2u3S1vL.jpg",
+      "rating": 4.6,
+      "price": 15.49
+    },
+    {
+      "id": 6,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "category": "Philosophical Fiction",
+      "description": "A young shepherd sets out on a journey to discover his personal legend and the true treasures of life.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg",
+      "rating": 4.8,
+      "price": 10.99
+    },
+    {
+      "id": 7,
+      "title": "Verity",
+      "author": "Colleen Hoover",
+      "category": "Psychological Thriller",
+      "description": "A writer discovers chilling secrets while completing an unfinished manuscript for a famous author.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81s0B6NYXML.jpg",
+      "rating": 4.7,
+      "price": 14.29
+    },
+    {
+      "id": 8,
+      "title": "The Song of Achilles",
+      "author": "Madeline Miller",
+      "category": "Historical Fiction",
+      "description": "A beautiful retelling of the Iliad through the eyes of Patroclus, Achilles’ closest companion.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81r+Kc8t5-L.jpg",
+      "rating": 4.8,
+      "price": 13.49
+    },
+    {
+      "id": 9,
+      "title": "Before We Were Strangers",
+      "author": "Renée Carlino",
+      "category": "Romance",
+      "description": "A touching love story about rediscovery and second chances between two college sweethearts.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81NwK8t5+ZL.jpg",
+      "rating": 4.5,
+      "price": 12.99
+    },
+    {
+      "id": 10,
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "category": "Self Help",
+      "description": "A brutally honest guide to living a good life by focusing on what truly matters.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/71QKQ9mwV7L.jpg",
+      "rating": 4.6,
+      "price": 14.99
+    }
+  ],
+  "trending": [
+    {
+      "id": 11,
+      "title": "Iron Flame",
+      "author": "Rebecca Yarros",
+      "category": "Fantasy",
+      "description": "The explosive sequel to Fourth Wing, where the stakes are higher, the dragons fiercer, and the love even more dangerous.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/91wBzZo0ZbL.jpg",
+      "rating": 4.9,
+      "price": 17.99
+    },
+    {
+      "id": 12,
+      "title": "A Court of Thorns and Roses",
+      "author": "Sarah J. Maas",
+      "category": "Fantasy Romance",
+      "description": "A spellbinding story of a mortal huntress who finds herself entangled in the deadly politics of the fae.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/91r+3uGQ0mL.jpg",
+      "rating": 4.8,
+      "price": 15.99
+    },
+    {
+      "id": 13,
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "author": "Taylor Jenkins Reid",
+      "category": "Drama",
+      "description": "A reclusive Hollywood icon finally tells the truth about her glamorous and scandalous life.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81q1Wc6Lz1L.jpg",
+      "rating": 4.8,
+      "price": 12.99
+    },
+    {
+      "id": 14,
+      "title": "Lessons in Chemistry",
+      "author": "Bonnie Garmus",
+      "category": "Fiction",
+      "description": "A brilliant chemist in the 1960s becomes an unlikely TV cooking show host, challenging gender roles and expectations.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81+uX4LxF-L.jpg",
+      "rating": 4.7,
+      "price": 14.49
+    },
+    {
+      "id": 15,
+      "title": "Happy Place",
+      "author": "Emily Henry",
+      "category": "Romance",
+      "description": "A witty and emotional story about a broken engagement, a fake relationship, and the rediscovery of love.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81oZL1q1U+L.jpg",
+      "rating": 4.6,
+      "price": 13.49
+    },
+    {
+      "id": 16,
+      "title": "The Ballad of Songbirds and Snakes",
+      "author": "Suzanne Collins",
+      "category": "Dystopian",
+      "description": "The prequel to The Hunger Games, exploring the dark origins of Panem and its future tyrant, President Snow.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81t2CVWEsUL.jpg",
+      "rating": 4.7,
+      "price": 16.49
+    },
+    {
+      "id": 17,
+      "title": "Tomorrow, and Tomorrow, and Tomorrow",
+      "author": "Gabrielle Zevin",
+      "category": "Fiction",
+      "description": "A story of friendship, creativity, and love centered around two friends who build video games together.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81AW+r+5+EL.jpg",
+      "rating": 4.8,
+      "price": 15.49
+    },
+    {
+      "id": 18,
+      "title": "Book Lovers",
+      "author": "Emily Henry",
+      "category": "Romance",
+      "description": "A clever enemies-to-lovers story about a literary agent and an editor who find themselves stuck in the same small town.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81h2gWPTYJL.jpg",
+      "rating": 4.7,
+      "price": 13.99
+    },
+    {
+      "id": 19,
+      "title": "Daisy Jones & The Six",
+      "author": "Taylor Jenkins Reid",
+      "category": "Fiction",
+      "description": "A vibrant oral history of a 1970s rock band that implodes at the height of fame.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81r+8O0yV+L.jpg",
+      "rating": 4.8,
+      "price": 14.79
+    },
+    {
+      "id": 20,
+      "title": "The Invisible Life of Addie LaRue",
+      "author": "V.E. Schwab",
+      "category": "Fantasy",
+      "description": "A young woman makes a Faustian bargain to live forever, but is cursed to be forgotten by everyone she meets.",
+      "coverImage": "https://images-na.ssl-images-amazon.com/images/I/81s6DUyQCZL.jpg",
+      "rating": 4.9,
+      "price": 16.99
+    }
+  ]
+}

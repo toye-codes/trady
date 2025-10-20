@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "book": {
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self-Help",
+      "condition": "Like New",
+      "image": "https://m.media-amazon.com/images/I/51-nXsSRfZL._SX329_BO1,204,203,200_.jpg",
+      "description": "A practical guide to building better habits and breaking bad ones."
+    },
+    "owner": {
+      "name": "Daniel Ojo",
+      "location": "Lagos, Nigeria",
+      "avatar": "https://randomuser.me/api/portraits/men/10.jpg"
+    },
+    "exchangeInterest": "Looking to trade for 'Deep Work' or another productivity book.",
+    "dateListed": "2025-10-10T12:30:00Z",
+    "available": true,
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "book": {
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "genre": "Motivation",
+      "condition": "Used - Good",
+      "image": "https://m.media-amazon.com/images/I/41bWcNdTG+L._SX332_BO1,204,203,200_.jpg",
+      "description": "A counterintuitive approach to living a good life."
+    },
+    "owner": {
+      "name": "Tolu Adebayo",
+      "location": "Abuja, Nigeria",
+      "avatar": "https://randomuser.me/api/portraits/women/20.jpg"
+    },
+    "exchangeInterest": "Interested in swapping for any Brené Brown title.",
+    "dateListed": "2025-10-12T09:00:00Z",
+    "available": true,
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "book": {
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "genre": "Finance",
+      "condition": "New",
+      "image": "https://m.media-amazon.com/images/I/81bsw6fnUiL.jpg",
+      "description": "Learn financial literacy and money mindset through personal stories."
+    },
+    "owner": {
+      "name": "Chika Nwosu",
+      "location": "Enugu, Nigeria",
+      "avatar": "https://randomuser.me/api/portraits/men/30.jpg"
+    },
+    "exchangeInterest": "Wants to trade for a stock investment or entrepreneurship book.",
+    "dateListed": "2025-10-09T18:00:00Z",
+    "available": false,
+    "status": "pending"
+  },
+  {
+    "id": 4,
+    "book": {
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "genre": "Business",
+      "condition": "Fair",
+      "image": "https://m.media-amazon.com/images/I/71UypkUjStL.jpg",
+      "description": "Timeless principles of wealth creation and personal achievement."
+    },
+    "owner": {
+      "name": "Grace Onuoha",
+      "location": "Ibadan, Nigeria",
+      "avatar": "https://randomuser.me/api/portraits/women/35.jpg"
+    },
+    "exchangeInterest": "Open to swapping for motivational or business books.",
+    "dateListed": "2025-10-11T15:10:00Z",
+    "available": true,
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "book": {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Fiction",
+      "condition": "Like New",
+      "image": "https://m.media-amazon.com/images/I/51Z0nLAfLmL.jpg",
+      "description": "An inspiring story about dreams, destiny, and self-discovery."
+    },
+    "owner": {
+      "name": "Mayowa Salami",
+      "location": "Kano, Nigeria",
+      "avatar": "https://randomuser.me/api/portraits/men/40.jpg"
+    },
+    "exchangeInterest": "Looking for 'The Monk Who Sold His Ferrari'.",
+    "dateListed": "2025-10-08T19:45:00Z",
+    "available": true,
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "book": {
+      "title": "Can't Hurt Me",
+      "author": "David Goggins",
+      "genre": "Memoir",
+      "condition": "Used - Good",
+      "image": "https://m.media-amazon.com/images/I/61J7P0wTg0L.jpg",
+      "description": "Lessons on mental toughness from a Navy SEAL turned endurance athlete."
+    },
+    "owner": {
+      "name": "Emeka Obi",
+      "location": "Owerri, Nigeria",
+      "avatar": "https://randomuser.me/api/portraits/men/50.jpg"
+    },
+    "exchangeInterest": "Willing to trade for a leadership or motivational title.",
+    "dateListed": "2025-10-07T10:20:00Z",
+    "available": false,
+    "status": "closed"
+  },
+  {
+    "id": 7,
+    "book": {
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "genre": "Productivity",
+      "condition": "Like New",
+      "image": "https://m.media-amazon.com/images/I/71g2ednj0JL.jpg",
+      "description": "A deep dive into the benefits of focused success in a distracted world."
+    },
+    "owner": {
+      "name": "Bola Adekunle",
+      "location": "Osogbo, Nigeria",
+      "avatar": "https://randomuser.me/api/portraits/men/60.jpg"
+    },
+    "exchangeInterest": "Interested in trading for 'Atomic Habits'.",
+    "dateListed": "2025-10-05T13:40:00Z",
+    "available": true,
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "book": {
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "genre": "Finance",
+      "condition": "Used - Good",
+      "image": "https://m.media-amazon.com/images/I/81cpDaCJJCL.jpg",
+      "description": "Insights on money and behavior that shape financial success."
+    },
+    "owner": {
+      "name": "Oluwatobi Ajayi",
+      "location": "Benin City, Nigeria",
+      "avatar": "https://randomuser.me/api/portraits/men/70.jpg"
+    },
+    "exchangeInterest": "Wants to swap for 'Rich Dad Poor Dad'.",
+    "dateListed": "2025-10-10T11:30:00Z",
+    "available": true,
+    "status": "active"
+  },
+  {
+    "id": 9,
+    "book": {
+      "title": "Man’s Search for Meaning",
+      "author": "Viktor E. Frankl",
+      "genre": "Philosophy",
+      "condition": "New",
+      "image": "https://m.media-amazon.com/images/I/71lbJ5GgW-L.jpg",
+      "description": "A Holocaust survivor’s reflections on purpose and human resilience."
+    },
+    "owner": {
+      "name": "Isioma Udeh",
+      "location": "Port Harcourt, Nigeria",
+      "avatar": "https://randomuser.me/api/portraits/women/80.jpg"
+    },
+    "exchangeInterest": "Looking for 'The Alchemist' or 'The Four Agreements'.",
+    "dateListed": "2025-10-06T09:45:00Z",
+    "available": true,
+    "status": "active"
+  },
+  {
+    "id": 10,
+    "book": {
+      "title": "Shoe Dog",
+      "author": "Phil Knight",
+      "genre": "Biography",
+      "condition": "Like New",
+      "image": "https://m.media-amazon.com/images/I/81vwf5mZ4-L.jpg",
+      "description": "The story of Nike’s founder and his journey building a global brand."
+    },
+    "owner": {
+      "name": "Adaeze Chukwu",
+      "location": "Jos, Nigeria",
+      "avatar": "https://randomuser.me/api/portraits/women/90.jpg"
+    },
+    "exchangeInterest": "Open to swapping for 'Steve Jobs' biography or similar.",
+    "dateListed": "2025-10-03T14:25:00Z",
+    "available": false,
+    "status": "closed"
+  },
+  {
+    "id": 11,
+    "book": {
+      "title": "Educated",
+      "author": "Tara Westover",
+      "genre": "Memoir",
+      "condition": "Used - Good",
+      "image": "https://m.media-amazon.com/images/I/81WojUxbbFL.jpg",
+      "description": "A memoir about the transformative power of education."
+    },
+    "owner": {
+      "name": "Kunle Bello",
+      "location": "Ilorin, Nigeria",
+      "avatar": "https://randomuser.me/api/portraits/men/100.jpg"
+    },
+    "exchangeInterest": "Looking to trade for any biography or self-growth book.",
+    "dateListed": "2025-10-11T17:15:00Z",
+    "available": true,
+    "status": "active"
+  },
+  {
+    "id": 12,
+    "book": {
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Science Fiction",
+      "condition": "Like New",
+      "image": "https://m.media-amazon.com/images/I/91zM9eHnZTL.jpg",
+      "description": "A sci-fi masterpiece about politics, religion, and survival."
+    },
+    "owner": {
+      "name": "Segun Ogun",
+      "location": "Abeokuta, Nigeria",
+      "avatar": "https://randomuser.me/api/portraits/men/110.jpg"
+    },
+    "exchangeInterest": "Wants to swap for another sci-fi or fantasy title.",
+    "dateListed": "2025-10-13T08:10:00Z",
+    "available": true,
+    "status": "active"
+  },
+  {
+    "id": 13,
+    "book": {
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "condition": "Used - Good",
+      "image": "https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg",
+      "description": "A chilling depiction of totalitarianism and surveillance."
+    },
+    "owner": {
+      "name": "Tomiwa Akin",
+      "location": "Lagos, Nigeria",
+      "avatar": "https://randomuser.me/api/portraits/men/120.jpg"
+    },
+    "exchangeInterest": "Looking for 'Brave New World' or similar classic fiction.",
+    "dateListed": "2025-10-14T16:00:00Z",
+    "available": true,
+    "status": "active"
+  },
+  {
+    "id": 14,
+    "book": {
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "genre": "Autobiography",
+      "condition": "New",
+      "image": "https://m.media-amazon.com/images/I/81h2gWPTYJL.jpg",
+      "description": "An inspiring memoir from the former First Lady of the United States."
+    },
+    "owner": {
+      "name": "Olamide Femi",
+      "location": "Ibadan, Nigeria",
+      "avatar": "https://randomuser.me/api/portraits/women/130.jpg"
+    },
+    "exchangeInterest": "Interested in motivational books by female authors.",
+    "dateListed": "2025-10-15T18:50:00Z",
+    "available": true,
+    "status": "active"
+  },
+  {
+    "id": 15,
+    "book": {
+      "title": "The Four Agreements",
+      "author": "Don Miguel Ruiz",
+      "genre": "Philosophy",
+      "condition": "Like New",
+      "image": "https://m.media-amazon.com/images/I/71lKxvPB1DL.jpg",
+      "description": "A simple yet profound code of conduct for personal freedom."
+    },
+    "owner": {
+      "name": "Faith Irele",
+      "location": "Calabar, Nigeria",
+      "avatar": "https://randomuser.me/api/portraits/women/140.jpg"
+    },
+    "exchangeInterest": "Open to swap for 'Man’s Search for Meaning'.",
+    "dateListed": "2025-10-16T13:30:00Z",
+    "available": false,
+    "status": "pending"
+  }
+]
