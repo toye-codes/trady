@@ -41,7 +41,7 @@ const BarterPage = () => {
     });
 
   return (
-    <section className="min-h-screen bg-[#fffaf4] p-3 md:p-10">
+    <section className="min-h-screen bg-[#fffaf4] py-4 px-2">
       {/* 🪶 Header */}
       <div className="max-w-6xl mx-auto mb-8 text-center">
         <h1 className="text-2xl md:text-3xl font-bold text-amber-900">
@@ -100,7 +100,7 @@ const BarterPage = () => {
       </div>
 
       {/* 📚 Barter Books Grid */}
-      <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5 gap-3 md:gap-5">
+      <div className=" grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 md:gap-5">
         {filteredListings.length > 0 ? (
           filteredListings.map((listing) => (
             <BarterCard

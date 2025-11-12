@@ -16,6 +16,7 @@ import {
   LogOut,
   Menu,
   X,
+  BookMarkedIcon
 } from "lucide-react";
 
 const navItems = [
@@ -23,8 +24,8 @@ const navItems = [
   { name: "Find Book", href: "/user/find-book", icon: Search },
   { name: "Barter", href: "/user/barters", icon: Repeat },
   { name: "Orders", href: "/user/orders", icon: ShoppingBag },
-  { name: "Bookmarks", href: "/user/wishlist", icon: Heart },
-  { name: "My Library", href: "/user/library", icon: BookOpenText },
+  { name: "Bookmarks", href: "/user/bookmarks", icon:BookMarkedIcon  },
+  // { name: "My Library", href: "/user/library", icon: BookOpenText },
   { name: "Profile", href: "/user/profile", icon: UserCircle },
 ];
 
@@ -109,7 +110,7 @@ const UserSidebar = () => {
             {/* BOTTOM SECTION */}
             <div className="border-t border-amber-100 pt-4">
               <Link
-                href="/dashboard/user/notifications"
+                href="/user/notifications"
                 className="flex items-center gap-3 px-3 py-2 rounded-lg text-amber-700 hover:bg-amber-50"
                 onClick={closeSidebar}>
                 <Bell className="w-5 h-5 text-amber-700" />

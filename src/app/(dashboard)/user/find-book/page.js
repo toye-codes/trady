@@ -5,6 +5,9 @@ import { Search, SlidersHorizontal } from "lucide-react";
 import BookCard from "../components/BookCard";
 import Books from "../../../data/books.json";
 
+
+// Add sort by location
+
 const FindBookPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");

@@ -6,10 +6,10 @@ import { BookOpen, Store, Shield } from "lucide-react";
 import night from "../../public/night.jpg";
 import quiet from "../../public/quiet.jpg";
 import atomic from "../../public/atomic.jpg";
-import BookFlipShowcase from "../component/global/BookFlipShowcase";
-import FeatureCard from "../component/global/FeatureCard";
-import HowStep from "../component/global/HowStep";
-import Footer from "../component/Footer";
+import BookFlipShowcase from "./component/global/BookFlipShowcase";
+import FeatureCard from "./component/global/FeatureCard";
+import HowStep from "./component/global/HowStep";
+import Footer from "./component/Footer";
 
 const BOOKS = [
   { id: 1, title: "The Night Circus", author: "Erin Morgenstern", img: night },
