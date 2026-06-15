@@ -1,16 +1,15 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { Search, SlidersHorizontal } from "lucide-react";
+import { Search } from "lucide-react";
 import BookCard from "../components/BookCard";
 import Books from "../../../data/books.json";
-
 
 // Add sort by location
 
 const FindBookPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("All");
   const [sortBy, setSortBy] = useState("");
 
   // ✅ Combine all books into a single array
@@ -30,14 +29,15 @@ const FindBookPage = () => {
         (book) =>
           book.title.toLowerCase().includes(search) ||
           book.author.toLowerCase().includes(search) ||
-          book.category.toLowerCase().includes(search)
+          book.category.toLowerCase().includes(search),
       );
     }
 
     // Filter by category
     if (selectedCategory && selectedCategory !== "All") {
       books = books.filter(
-        (book) => book.category.toLowerCase() === selectedCategory.toLowerCase()
+        (book) =>
+          book.category.toLowerCase() === selectedCategory.toLowerCase(),
       );
     }
 
@@ -47,7 +47,7 @@ const FindBookPage = () => {
     } else if (sortBy === "price-high") {
       books.sort((a, b) => b.price - a.price);
     } else if (sortBy === "popular") {
-      books.sort((a, b) => b.popularity - a.popularity); // assuming `popularity` exists
+      books.sort((a, b) => (b.rating || 0) - (a.rating || 0));
     }
 
     return books;

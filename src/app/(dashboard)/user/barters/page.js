@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Search } from "lucide-react";
 import BarterCard from "../components/BarterCard";
-import barterListings from "../../../data/barterListing.json";
+import barterListings from "../../../../data/barterListing.json";
 
 const BarterPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -28,7 +28,7 @@ const BarterPage = () => {
     })
     .filter(
       (item) =>
-        selectedCategory === "All" || item.book.genre === selectedCategory
+        selectedCategory === "All" || item.book.genre === selectedCategory,
     )
     .sort((a, b) => {
       if (sortBy === "recent") {

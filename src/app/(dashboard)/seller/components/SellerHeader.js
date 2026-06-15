@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Bell, Search, ChevronDown, UserCircle, LogOut } from "lucide-react";
 
-const UserHeader = () => {
+const SellerHeader = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
@@ -12,26 +12,26 @@ const UserHeader = () => {
   const toggleDropdown = () => setDropdownOpen(!dropdownOpen);
 
   return (
-    <header className="w-full bg-[#fdfbf8] border-b border-amber-200 px-4 py-3 flex items-center justify-between relative">
+    <header className="w-full bg-[#fffaf4] border-b border-amber-200 px-4 py-3 flex items-center justify-between relative">
       {/* Left Section */}
       <div className="flex items-center gap-3">
         {/* Mobile Search Toggle */}
-        <button
+        {/* <button
           className="lg:hidden text-amber-700"
           onClick={toggleSearch}
           aria-label="Open search">
           <Search className="w-6 h-6" />
-        </button>
+        </button> */}
 
         {/* Desktop Search */}
-        <div className="hidden lg:flex items-center bg-amber-50 border border-amber-200 rounded-full px-3 py-1.5 w-80 shadow-sm">
+        {/* <div className="hidden lg:flex items-center bg-amber-50 border border-amber-200 rounded-full px-3 py-1.5 w-80 shadow-sm">
           <Search className="w-5 h-5 text-amber-700 mr-2" />
           <input
             type="text"
-            placeholder="Search books, authors, or barters..."
+            placeholder="Search orders, books, or analytics..."
             className="bg-transparent outline-none text-sm flex-1 text-amber-900 placeholder:text-amber-500"
           />
-        </div>
+        </div> */}
       </div>
 
       {/* Right Section */}
@@ -64,12 +64,12 @@ const UserHeader = () => {
                 transition={{ duration: 0.2 }}
                 className="absolute right-0 mt-2 w-48 bg-white border border-amber-100 rounded-xl shadow-lg py-2 z-50">
                 <a
-                  href="/user/profile"
+                  href="/seller/profile"
                   className="block px-4 py-2 text-sm text-amber-800 hover:bg-amber-50">
                   Profile
                 </a>
                 <a
-                  href="/user/settings"
+                  href="/seller/settings"
                   className="block px-4 py-2 text-sm text-amber-800 hover:bg-amber-50">
                   Settings
                 </a>
@@ -98,7 +98,7 @@ const UserHeader = () => {
               <Search className="w-5 h-5 text-amber-700 mr-2" />
               <input
                 type="text"
-                placeholder="Search books or barters..."
+                placeholder="Search books or orders..."
                 className="bg-transparent outline-none text-sm flex-1 text-amber-900 placeholder:text-amber-500"
               />
               <button
@@ -114,4 +114,4 @@ const UserHeader = () => {
   );
 };
 
-export default UserHeader;
+export default SellerHeader;

@@ -1,6 +1,6 @@
 "use client";
 
-import books from "../../../data/books.json";
+import books from "../../../data/books.json"
 import BookCard from "../components/BookCard";
 import DashboardStats from "../components/DashboardStats";
 
@@ -8,7 +8,7 @@ const Page = () => {
   const favouritesBooks = books.favourites;
 
   // trending Books
-  const trendingBooks = books.trending
+  const trendingBooks = books.trending;
 
   return (
     <div className="p-4 space-y-4">

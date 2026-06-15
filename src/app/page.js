@@ -239,7 +239,7 @@ export default function LandingPage() {
               Create Account
             </a>
             <a
-              href="/sellers"
+              href="/seller/home"
               className="border border-white px-3 py-2 rounded-lg text-white">
               Sell Books
             </a>

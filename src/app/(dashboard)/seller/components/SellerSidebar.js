@@ -5,31 +5,28 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  Search,
   LayoutDashboard,
-  Repeat,
-  ShoppingBag,
-  Heart,
+  PlusSquare,
   BookOpenText,
+  ShoppingBag,
+  BarChart3,
   UserCircle,
   Bell,
   LogOut,
   Menu,
   X,
-  Bookmark,
 } from "lucide-react";
 
 const navItems = [
-  { name: "Overview", href: "/user/home", icon: LayoutDashboard },
-  { name: "Find Book", href: "/user/find-book", icon: Search },
-  { name: "Barter", href: "/user/barters", icon: Repeat },
-  { name: "Orders", href: "/user/orders", icon: ShoppingBag },
-  { name: "Bookmarks", href: "/user/bookmarks", icon: Bookmark },
-  // { name: "My Library", href: "/user/library", icon: BookOpenText },
-  { name: "Profile", href: "/user/profile", icon: UserCircle },
+  { name: "Overview", href: "/seller/home", icon: LayoutDashboard },
+  { name: "My Books", href: "/seller/books", icon: BookOpenText },
+  { name: "Add Book", href: "/seller/add-book", icon: PlusSquare },
+  { name: "Orders", href: "/seller/orders", icon: ShoppingBag },
+  { name: "Analytics", href: "/seller/analytics", icon: BarChart3 },
+  { name: "Profile", href: "/seller/profile", icon: UserCircle },
 ];
 
-const UserSidebar = () => {
+const SellerSidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
@@ -39,16 +36,15 @@ const UserSidebar = () => {
   return (
     <>
       {/* MOBILE HEADER BAR */}
-      <div className="lg:hidden flex items-center justify-between p-4 border-b bg-[#fdfbf8]">
+      <div className="lg:hidden flex items-center justify-between p-4 border-b bg-[#fffaf4]">
         <div className="flex items-center gap-2">
           <BookOpenText className="w-6 h-6 text-amber-700" />
-          <h2 className="font-semibold text-amber-800">Trady</h2>
+          <h2 className="font-semibold text-amber-800">Seller</h2>
         </div>
 
         <motion.button
           onClick={toggleSidebar}
           whileTap={{ scale: 0.9 }}
-          transition={{ duration: 0.2 }}
           aria-label="Toggle sidebar">
           <AnimatePresence mode="wait" initial={false}>
             <motion.div
@@ -75,14 +71,14 @@ const UserSidebar = () => {
             animate={{ x: 0 }}
             exit={{ x: -260 }}
             transition={{ duration: 0.4, ease: "easeOut" }}
-            className={`fixed lg:static top-0 left-0 h-screen w-64 bg-[#fdfbf8] border-r border-amber-200 shadow-sm flex flex-col justify-between p-4 z-50
+            className={`fixed lg:static top-0 left-0 h-screen w-64 bg-[#fffaf4] border-r border-amber-200 shadow-sm flex flex-col justify-between p-4 z-50
               ${isOpen ? "block" : "hidden lg:flex"}`}>
             {/* TOP SECTION */}
             <div>
               <div className="hidden lg:flex items-center mb-8 px-2">
                 <BookOpenText className="w-7 h-7 text-amber-700 mr-2" />
-                <h2 className="text-xl font-semibold text-amber-800 font-serif">
-                  Trady
+                <h2 className="text-lg font-semibold text-amber-800 font-serif">
+                  Seller Dashboard
                 </h2>
               </div>
 
@@ -110,7 +106,7 @@ const UserSidebar = () => {
             {/* BOTTOM SECTION */}
             <div className="border-t border-amber-100 pt-4">
               <Link
-                href="/user/notifications"
+                href="/seller/notifications"
                 className="flex items-center gap-3 px-3 py-2 rounded-lg text-amber-700 hover:bg-amber-50"
                 onClick={closeSidebar}>
                 <Bell className="w-5 h-5 text-amber-700" />
@@ -141,4 +137,4 @@ const UserSidebar = () => {
   );
 };
 
-export default UserSidebar;
+export default SellerSidebar;

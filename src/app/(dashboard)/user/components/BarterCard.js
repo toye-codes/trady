@@ -73,7 +73,7 @@ const BarterCard = ({ id, book, owner }) => {
         {/* 🔗 CTA Section */}
         <div className="mt-3 flex items-center justify-between">
           <Link
-            href={`/barter/${id}-${slugify(book.title)}`}
+            href={`/user/barters/${id}-${slugify(book.title)}`}
             className="text-blue-600 text-sm font-medium hover:underline">
             View Details →
           </Link>
