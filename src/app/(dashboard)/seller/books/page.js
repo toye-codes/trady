@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import slugify from "slugify";
-import books from "../../../../data/books.json";
+import books from "../../../data/books.json"
 
 const SellerBooksPage = () => {
   const inventory = [...books.favourites, ...books.trending].slice(0, 10);

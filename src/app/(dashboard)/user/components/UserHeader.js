@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Bell, Search, ChevronDown, UserCircle, LogOut } from "lucide-react";
+import Link from "next/link";
+
 
 const UserHeader = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -63,16 +65,17 @@ const UserHeader = () => {
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.2 }}
                 className="absolute right-0 mt-2 w-48 bg-white border border-amber-100 rounded-xl shadow-lg py-2 z-50">
-                <a
+                <Link
                   href="/user/profile"
                   className="block px-4 py-2 text-sm text-amber-800 hover:bg-amber-50">
                   Profile
-                </a>
-                <a
+                </Link>
+
+                <Link
                   href="/user/settings"
                   className="block px-4 py-2 text-sm text-amber-800 hover:bg-amber-50">
                   Settings
-                </a>
+                </Link>
                 <button
                   onClick={() => console.log("Logout clicked")}
                   className="flex items-center gap-2 px-4 py-2 text-sm text-amber-800 hover:bg-amber-50 w-full">

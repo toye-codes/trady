@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 const ProfileInfo = ({ user }) => {
   return (
     <div className="bg-white p-6 rounded-lg shadow-md space-y-4">
       <div className="flex items-center space-x-4">
-        <img
+        <Image
           src={user.profilePic}
           alt="Profile"
           className="w-16 h-16 rounded-full object-cover border border-[#FEF3C7]"
